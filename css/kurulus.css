@@ -1,0 +1,33 @@
+.tarih img {
+    width: 350px;
+    height: 200px;
+}
+
+.tarih {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarih p {
+    width: 90%;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    box-shadow: 15px 15px 7px gray;
+}
+
+.tarih p::first-letter {
+    font-size: 50px;
+}
+
+.tarih h2 {
+    padding: 15px;
+}
+
+@media(max-witdh:768px) {
+    .tarih {
+        height: auto;
+        margin-top: 30px;
+    }
+}

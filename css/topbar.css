@@ -1,0 +1,15 @@
+.yorumlar {
+    position: relative;
+}
+
+.yorumlar .topbar {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.yorumlar .topbar img {
+    width: 100%;
+}
